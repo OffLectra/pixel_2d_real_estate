@@ -1,0 +1,24 @@
+.cardContainer {
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  overflow: hidden;
+  padding: 8px;
+  width: fit-content;
+}
+.cardContainer .heartBlock {
+  padding: 3px;
+}
+.cardContainer .infoBlock {
+  text-align: center;
+  padding: 3px;
+  justify-self: center;
+}
+.cardContainer .addItemBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 3px;
+}

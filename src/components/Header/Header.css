@@ -1,0 +1,46 @@
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 8em;
+}
+header .generalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .generalContainer .headerLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+}
+header .generalContainer .headerLeft .headerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+header .generalContainer .headerRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+header .generalContainer .headerRight .headerRightList {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 20%;
+}
+header .generalContainer .headerRight .headerRightList li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
