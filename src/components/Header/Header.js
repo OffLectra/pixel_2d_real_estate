@@ -1,13 +1,16 @@
-// import React from "react";
+import { HeartIconComponent } from "../HeartIcon/HeartIcon";
+
 
 export function HeaderComponent() {
   return (
       <header>
         <div className="generalContainer">
           <div className="headerLeft">
-            <img width={40} height={40} alt="" src="/main_link.png" />
+            <img width={50} alt="" src="/main_link.png" />
             <div className="headerInfo">
-              <h3>React 2D Real Estate</h3>
+              <div>
+                <h3>React 2D Real Estate</h3>
+              </div>
               <p>Продажа пиксельной недвижимости</p>
             </div>
           </div>
@@ -16,6 +19,9 @@ export function HeaderComponent() {
               <li>
                 <img width={40} alt=""  src="/basket_2.png" />
                 <span>Сумма</span>
+              </li>
+              <li>
+                <HeartIconComponent />
               </li>
               <li>
                 <img width={40} alt=""  src="/user_1.png" />

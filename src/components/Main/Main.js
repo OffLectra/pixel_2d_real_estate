@@ -1,4 +1,4 @@
-// import React from "react";
+
 import { CardComponent } from "../Card/Card";
 import { SliderComponent } from "../Slider/Slider";
 
@@ -8,8 +8,18 @@ export function MainComponent() {
         <div className="generalContainer">
           <SliderComponent />
           <div className="contentWrapper">
-            <h1>Rooms</h1>
+            <div className="titleBlock">
+              <h1>Rooms</h1>
+              <div className="search">
+                <img src="./loop.png" width={20} alt="Search" />
+                <input className="titleInput" placeholder="Поиск..."/>
+              </div>
+            </div>
             <div className="cardsBlock">
+              <CardComponent />
+              <CardComponent />
+              <CardComponent />
+              <CardComponent />
               <CardComponent />
               <CardComponent />
               <CardComponent />

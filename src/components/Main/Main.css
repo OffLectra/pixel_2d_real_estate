@@ -4,6 +4,25 @@
   flex-direction: column;
   gap: 2em;
 }
+.contentWrapper .titleBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contentWrapper .titleBlock .search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contentWrapper .titleBlock .search .titleInput {
+  height: auto;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 8px;
+  background-color: rgb(255, 251, 240);
+  padding: 10px;
+  margin: 5px;
+}
 .contentWrapper .cardsBlock {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));

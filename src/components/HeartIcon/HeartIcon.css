@@ -1,0 +1,29 @@
+.heartActive {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(171, 44, 72);
+  transform: rotate(45deg);
+  position: relative;
+}
+.heartActive::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(171, 44, 72);
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  left: 0;
+}
+.heartActive::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(171, 44, 72);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -8px;
+}

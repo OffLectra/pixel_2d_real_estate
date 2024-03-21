@@ -1,0 +1,7 @@
+footer {
+  padding: 3em;
+}
+footer div p {
+  text-align: center;
+  font-style: oblique;
+}
