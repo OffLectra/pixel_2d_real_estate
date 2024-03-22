@@ -1,0 +1,37 @@
+.cartItemContainer {
+  height: 100px;
+  padding: 0px 20px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.cartItemContainer:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
+  transform: translateY(-2px);
+}
+.cartItemContainer .shopCartItemImgContainer {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cartItemContainer .shopCartItemImgContainer .shopCartItemImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.cartItemContainer .shopCartItemInfoContainer .shopCartItemPrice {
+  font-weight: bolder;
+  font-style: oblique;
+}
+.cartItemContainer .shopCartItemCrossContainer {
+  cursor: pointer;
+}
