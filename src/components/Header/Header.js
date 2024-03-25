@@ -6,7 +6,9 @@ export function HeaderComponent() {
       <header>
         <div className="generalContainer">
           <div className="headerLeft">
-            <img width={50} alt="" src="/main_link.png" />
+            <a href="#">
+              <img width={50} alt="" src="/main_link.png" />
+            </a>
             <div className="headerInfo">
               <div>
                 <h3>React 2D Real Estate</h3>

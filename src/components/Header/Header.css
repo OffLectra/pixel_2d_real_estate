@@ -28,6 +28,9 @@ header .generalContainer .headerLeft .headerInfo {
   flex-direction: column;
   gap: 5px;
 }
+header .generalContainer .headerLeft .headerInfo p {
+  opacity: 0.4;
+}
 header .generalContainer .headerRight {
   display: flex;
   flex-direction: row;

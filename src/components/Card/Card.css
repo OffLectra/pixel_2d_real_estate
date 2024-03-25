@@ -33,6 +33,7 @@
 .cardContainer .infoBlock .infoBlockPrice {
   color: rgb(224, 65, 123);
   font-weight: bold;
+  font-size: larger;
 }
 .cardContainer .addItemBlock {
   display: flex;
