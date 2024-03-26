@@ -1,8 +1,17 @@
 {
   "name": "pixel_2d_real_estate",
   "version": "0.1.0",
-  "homepage": "https://offlectra.github.io/pixel_2d_real_estate",
+  "homepage": "http://offlectra.github.io/pixel_2d_real_estate",
   "private": true,
+  "build": {
+    "directories": {
+      "output": "build"
+    }
+  },
+  "author": {
+    "name": "UV",
+    "email": ""
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

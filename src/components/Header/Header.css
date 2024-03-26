@@ -39,7 +39,7 @@ header .generalContainer .headerRight {
 header .generalContainer .headerRight .headerRightList {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   gap: 20%;
 }
