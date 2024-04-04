@@ -1,3 +1,4 @@
+import React from 'react';
 import { HeartIconComponent } from "../HeartIcon/HeartIcon";
 import { SwitchComponent } from "../Switch/Switch";
 

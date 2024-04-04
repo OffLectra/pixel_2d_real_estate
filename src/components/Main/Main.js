@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { CardComponent } from "../Card/Card";
 import { SliderComponent } from "../Slider/Slider";
 
