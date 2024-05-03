@@ -11,7 +11,7 @@ export function MainComponent() {
             <div className="titleBlock">
               <h1>Rooms</h1>
               <div className="search">
-                <img src="./loop.png" width={20} alt="Search" />
+                <img src="../../assets/img/loop.png" width={20} alt="Search" />
                 <input className="titleInput" placeholder="Поиск..."/>
               </div>
             </div>

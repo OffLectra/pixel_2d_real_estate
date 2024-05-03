@@ -15,7 +15,7 @@ export function CardComponent() {
                     1-к, 300px
                 </div>
                 <div className="infoBlockPhoto">
-                    <img src="./room_1.png" alt="" width={150}/>
+                    <img src="assets/img/room_1.png" alt="" width={150}/>
                 </div>
                 <div className="infoBlockPrice">
                     100 скв

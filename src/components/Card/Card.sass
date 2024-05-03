@@ -7,6 +7,7 @@
     overflow: hidden
     padding: 5px
     width: fit-content
+    min-height: 230px
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)  //легкая тень от карточек
     transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out
 
@@ -28,11 +29,18 @@
         // padding: 3px
         display: flex
         flex-direction: column
+        justify-content: space-between
         gap: 10px
         margin: 10px 0
-        .infoBlockTitle
+        // .infoBlockTitle
 
         .infoBlockPhoto
+            // width: 100px
+            // height: 100px
+            // background-image: url(./assets/img/room_1.png)
+            // background-size: cover
+            // background-position: center
+            // border: 2px solid #000
 
         .infoBlockPrice
             color: rgb(224, 65, 123)

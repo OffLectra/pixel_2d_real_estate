@@ -4,10 +4,13 @@
     flex-direction: column
     gap: 2em
     .titleBlock
-        // display: flex
-        // flex-direction: row
-        // justify-content: space-between
-        // align-items: center
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        @media (max-width: 600px)
+            flex-direction: column
+        
         .search
             display: flex
             flex-direction: row

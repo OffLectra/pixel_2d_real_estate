@@ -4,6 +4,17 @@
   flex-direction: column;
   gap: 2em;
 }
+.contentWrapper .titleBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .contentWrapper .titleBlock {
+    flex-direction: column;
+  }
+}
 .contentWrapper .titleBlock .search {
   display: flex;
   flex-direction: row;
