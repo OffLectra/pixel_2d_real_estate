@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/App.js":
@@ -8,6 +7,7 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -40,6 +40,7 @@ function App() {
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   CardComponent: () => (/* binding */ CardComponent)
@@ -81,6 +82,7 @@ function CardComponent() {
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   FooterComponent: () => (/* binding */ FooterComponent)
@@ -102,6 +104,7 @@ function FooterComponent() {
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   HeaderComponent: () => (/* binding */ HeaderComponent)
@@ -121,7 +124,7 @@ function HeaderComponent() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     width: 50,
     alt: "",
-    src: "./main_link.png"
+    src: "assets/img/main_link.png"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "headerInfo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "React 2D Real Estate")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u041F\u0440\u043E\u0434\u0430\u0436\u0430 \u043F\u0438\u043A\u0441\u0435\u043B\u044C\u043D\u043E\u0439 \u043D\u0435\u0434\u0432\u0438\u0436\u0438\u043C\u043E\u0441\u0442\u0438"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -131,11 +134,11 @@ function HeaderComponent() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     width: 40,
     alt: "",
-    src: "./basket_2.png"
+    src: "assets/img/cart.png"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "\u0421\u0443\u043C\u043C\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_HeartIcon_HeartIcon__WEBPACK_IMPORTED_MODULE_1__.HeartIconComponent, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     width: 40,
     alt: "",
-    src: "./user_1.png"
+    src: "assets/img/user_1.png"
   }))))));
 }
 
@@ -147,6 +150,7 @@ function HeaderComponent() {
   \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   HeartIconComponent: () => (/* binding */ HeartIconComponent)
@@ -168,6 +172,7 @@ function HeartIconComponent() {
   \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PageWrapperComponent: () => (/* binding */ PageWrapperComponent)
@@ -195,6 +200,7 @@ function PageWrapperComponent() {
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   MainComponent: () => (/* binding */ MainComponent)
@@ -224,7 +230,7 @@ function MainComponent() {
     placeholder: "\u041F\u043E\u0438\u0441\u043A..."
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "cardsBlock"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null)))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null)))));
 }
 
 /***/ }),
@@ -235,6 +241,7 @@ function MainComponent() {
   \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ShopcartItemComponent: () => (/* binding */ ShopcartItemComponent)
@@ -251,15 +258,17 @@ function ShopcartItemComponent() {
     src: "./assets/img/room_2.png",
     className: "shopCartItemImg",
     alt: ""
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartItemInfoContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartItemTitle"
-  }, "\u041A\u043E\u043C\u043D\u0430\u0442\u0430"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "\u041A\u043E\u043C\u043D\u0430\u0442\u0430 vgvevevservvgvgerfgvefr"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartItemPrice"
-  }, "100 \u0441\u043A\u0432"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "100 \u0441\u043A\u0432")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartItemCrossContainer"
-  }, "\xD7"));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "shopCartItemCrossButton"
+  }, "x")));
 }
 
 /***/ }),
@@ -270,6 +279,7 @@ function ShopcartItemComponent() {
   \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ShopcartComponent: () => (/* binding */ ShopcartComponent)
@@ -277,6 +287,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../ShopCartItem/ShopCartItem */ "./src/components/ShopCartItem/ShopCartItem.js");
+/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../data/data */ "./src/data/data.js");
+/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_data_data__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 function ShopcartComponent() {
@@ -288,7 +301,7 @@ function ShopcartComponent() {
     className: "shopCartTitle"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "\u041A\u043E\u0440\u0437\u0438\u043D\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartContainer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "priceButtonContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "priceInfo"
@@ -305,6 +318,7 @@ function ShopcartComponent() {
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SliderComponent: () => (/* binding */ SliderComponent)
@@ -326,6 +340,7 @@ function SliderComponent() {
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SwitchComponent: () => (/* binding */ SwitchComponent)
@@ -340,10 +355,36 @@ function SwitchComponent() {
     className: "switchPlus"
   }, "+"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "switchMiddle"
-  }, "\u2714"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "assets/img/halka.png",
+    width: 15,
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "switchMinus"
   }, "-"));
 }
+
+/***/ }),
+
+/***/ "./src/data/data.js":
+/*!**************************!*\
+  !*** ./src/data/data.js ***!
+  \**************************/
+/***/ (() => {
+
+const data = [{
+  name: '1-к, 120пк',
+  price: '100',
+  image: './assets/img/room_2.png'
+}, {
+  name: '2-к, 190пк',
+  price: '220',
+  image: './assets/img/room_3.png'
+}, {
+  name: '3-к, 210пк',
+  price: '240',
+  image: './assets/img/house_4.png'
+}];
 
 /***/ }),
 
@@ -353,6 +394,7 @@ function SwitchComponent() {
   \*****************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -441,9 +483,9 @@ body .wrapper {
   background-color: rgb(231, 220, 200);
 }
 
-.app {
+.App {
   position: relative;
-}`, "",{"version":3,"sources":["webpack://./src/index.sass"],"names":[],"mappings":"AAeA;EACE,sBAAA;AAHF;;AAKA;EACE,SAAA;EACA,UAAA;AAFF;;AAIA;EACE,+EAAA;AADF;;AAGA;EACE,YAAA;EAGA,2BAAA;EACA,4BAAA;EACA,kBAAA;AAFF;AAGE;EACI,UAAA;AADN;AAGE;EACE,oDAAA;AADJ;AAIE;EACE,oDAAA;AAFJ;AAIE;EACE,oCAAA;EACA,WAAA;EAEA,cAAA;EACA,wBAAA;AAHJ;;AAOA;EACE,UAAA;EACA,iBAAA;EACA,cAAA;EACA,oCAAA;AAJF;;AAMA;EACE,kBAAA;AAHF","sourcesContent":["@import ./assets/styles/normalize.css\n@import ./components/MainPage/MainPage.css\n@import ./components/Header/Header.css\n@import ./components/Main/Main.css\n@import ./components/Slider/Slider.css\n@import ./components/Card/Card.css\n@import ./components/Footer/Footer.css\n@import ./components/HeartIcon/HeartIcon.css\n@import ./components/Switch/Switch.css\n@import ./components/ShopCartPopUp/ShopCart.css\n@import ./components/ShopCartItem/ShopCartItem.css\n\n\n\n\n*, *::before, *::after\n  box-sizing: border-box\n\nbody, h1, h2, h3, h4, h5, h6, p\n  margin: 0\n  padding: 0\n  \ncode\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace\n\nbody\n  height: auto\n  // width: 100vw\n  // cursor: url('./assets/img/kursor_3.png'), auto\n  background: rgb(39,34,40)\n  background-repeat: no-repeat\n  position: relative\n  &::-webkit-scrollbar\n      width: 8px\n\n  &::-webkit-scrollbar-track\n    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)\n\n\n  &::-webkit-scrollbar-thumb\n    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5)\n\n  .wrapper\n    background-color: rgb(231, 220, 200)\n    width: 100%\n    // border-radius: 8px\n    margin: 0 auto\n    padding: 8em 10px 0 10px\n\n\n  \n.generalContainer\n  width: 80%\n  max-width: 1200px\n  margin: 0 auto\n  background-color: rgb(231, 220, 200)\n   \n.app\n  position: relative"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/index.sass"],"names":[],"mappings":"AAeA;EACE,sBAAA;AAHF;;AAKA;EACE,SAAA;EACA,UAAA;AAFF;;AAIA;EACE,+EAAA;AADF;;AAIA;EACE,YAAA;EAGA,2BAAA;EACA,4BAAA;EACA,kBAAA;AAHF;AAME;EACI,UAAA;AAJN;AAME;EACE,oDAAA;AAJJ;AAOE;EACE,oDAAA;AALJ;AAOE;EACE,oCAAA;EACA,WAAA;EAEA,cAAA;EACA,wBAAA;AANJ;;AAQA;EACE,UAAA;EACA,iBAAA;EACA,cAAA;EACA,oCAAA;AALF;;AAOA;EACE,kBAAA;AAJF","sourcesContent":["@import ./assets/styles/normalize.css\n@import ./components/MainPage/MainPage.css\n@import ./components/Header/Header.css\n@import ./components/Main/Main.css\n@import ./components/Slider/Slider.css\n@import ./components/Card/Card.css\n@import ./components/Footer/Footer.css\n@import ./components/HeartIcon/HeartIcon.css\n@import ./components/Switch/Switch.css\n@import ./components/ShopCartPopUp/ShopCart.css\n@import ./components/ShopCartItem/ShopCartItem.css\n\n\n\n\n*, *::before, *::after\n  box-sizing: border-box\n\nbody, h1, h2, h3, h4, h5, h6, p\n  margin: 0\n  padding: 0\n  \ncode\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace\n\n\nbody\n  height: auto\n  // width: 100vw\n  // cursor: url('./assets/img/kursor_3.png'), auto\n  background: rgb(39,34,40)\n  background-repeat: no-repeat\n  position: relative\n  // overflow: hidden\n\n  &::-webkit-scrollbar\n      width: 8px\n\n  &::-webkit-scrollbar-track\n    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)\n\n\n  &::-webkit-scrollbar-thumb\n    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5)\n\n  .wrapper\n    background-color: rgb(231, 220, 200)\n    width: 100%\n    // border-radius: 8px\n    margin: 0 auto\n    padding: 8em 10px 0 10px\n\n.generalContainer\n  width: 80%\n  max-width: 1200px\n  margin: 0 auto\n  background-color: rgb(231, 220, 200)\n   \n.App\n  position: relative\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -456,6 +498,7 @@ body .wrapper {
   \*******************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -522,6 +565,7 @@ td,th{padding:0}`, "",{"version":3,"sources":["webpack://./src/assets/styles/nor
   \****************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -592,6 +636,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.cardContainer {
   \********************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -624,6 +669,7 @@ footer div p {
   \********************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -700,6 +746,7 @@ header .generalContainer .headerRight .headerRightList li {
   \**************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -754,6 +801,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.heartActive {
   \************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -780,6 +828,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names
   \****************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -841,6 +890,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.contentWrapper {
   \********************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -863,7 +913,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.cartItemContainer {
   align-items: center;
   border: 1px solid rgb(240, 240, 240);
   border-radius: 5px;
-  margin: 10px;
+  margin: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
@@ -872,8 +922,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.cartItemContainer {
   transform: translateY(-2px);
 }
 .cartItemContainer .shopCartItemImgContainer {
-  width: 90px;
-  height: 90px;
+  width: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -883,6 +932,14 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.cartItemContainer {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+.cartItemContainer .shopCartItemInfoContainer {
+  width: 100%;
+  max-width: 130px;
+  white-space: normal;
+}
+.cartItemContainer .shopCartItemInfoContainer .shopCartItemTitle {
+  height: 60px;
 }
 .cartItemContainer .shopCartItemInfoContainer .shopCartItemPrice {
   font-weight: bolder;
@@ -895,7 +952,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.cartItemContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-}`, "",{"version":3,"sources":["webpack://./src/components/ShopCartItem/ShopCartItem.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,0BAA0B;EAC1B,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,mBAAmB;EACnB,oCAAoC;EACpC,kBAAkB;EAClB,YAAY;EACZ,8CAA8C;EAC9C,mEAAmE;AACrE;AACA;EACE,6CAA6C;EAC7C,2BAA2B;AAC7B;AACA;EACE,WAAW;EACX,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,mBAAmB;AACrB;AACA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,WAAW;AACb;AACA;EACE,mBAAmB;EACnB,mBAAmB;AACrB;AACA;EACE,eAAe;EACf,WAAW;EACX,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB","sourcesContent":[".cartItemContainer {\n  height: 100px;\n  padding: 0px 20px 0px 10px;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  border: 1px solid rgb(240, 240, 240);\n  border-radius: 5px;\n  margin: 10px;\n  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);\n  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;\n}\n.cartItemContainer:hover {\n  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);\n  transform: translateY(-2px);\n}\n.cartItemContainer .shopCartItemImgContainer {\n  width: 90px;\n  height: 90px;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n.cartItemContainer .shopCartItemImgContainer .shopCartItemImg {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n}\n.cartItemContainer .shopCartItemInfoContainer .shopCartItemPrice {\n  font-weight: bolder;\n  font-style: oblique;\n}\n.cartItemContainer .shopCartItemCrossContainer {\n  cursor: pointer;\n  width: 30px;\n  height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/ShopCartItem/ShopCartItem.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,0BAA0B;EAC1B,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,mBAAmB;EACnB,oCAAoC;EACpC,kBAAkB;EAClB,WAAW;EACX,8CAA8C;EAC9C,mEAAmE;AACrE;AACA;EACE,6CAA6C;EAC7C,2BAA2B;AAC7B;AACA;EACE,WAAW;EACX,aAAa;EACb,mBAAmB;EACnB,mBAAmB;AACrB;AACA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,WAAW;AACb;AACA;EACE,WAAW;EACX,gBAAgB;EAChB,mBAAmB;AACrB;AACA;EACE,YAAY;AACd;AACA;EACE,mBAAmB;EACnB,mBAAmB;AACrB;AACA;EACE,eAAe;EACf,WAAW;EACX,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB","sourcesContent":[".cartItemContainer {\n  height: 100px;\n  padding: 0px 20px 0px 10px;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  border: 1px solid rgb(240, 240, 240);\n  border-radius: 5px;\n  margin: 8px;\n  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);\n  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;\n}\n.cartItemContainer:hover {\n  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);\n  transform: translateY(-2px);\n}\n.cartItemContainer .shopCartItemImgContainer {\n  width: 80px;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n.cartItemContainer .shopCartItemImgContainer .shopCartItemImg {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n}\n.cartItemContainer .shopCartItemInfoContainer {\n  width: 100%;\n  max-width: 130px;\n  white-space: normal;\n}\n.cartItemContainer .shopCartItemInfoContainer .shopCartItemTitle {\n  height: 60px;\n}\n.cartItemContainer .shopCartItemInfoContainer .shopCartItemPrice {\n  font-weight: bolder;\n  font-style: oblique;\n}\n.cartItemContainer .shopCartItemCrossContainer {\n  cursor: pointer;\n  width: 30px;\n  height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -908,6 +965,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.cartItemContainer {
   \*****************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -929,23 +987,23 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.popupBG {
   z-index: 100;
   width: 100%;
   height: 100%;
-  display: none;
+  display: block;
 }
 .popupBG .shopCartWrapper {
   position: absolute;
-  width: fit-content;
   min-width: 60%;
   height: 100%;
   top: 0;
   right: 0;
   background: white;
+  box-shadow: -8px 5 px 25px rgba(0, 0, 0, 0.2);
 }
 .popupBG .shopCartWrapper .shopCartTitle {
   position: sticky;
   right: 0;
   width: 100%;
   height: 80px;
-  background-color: rgb(201, 198, 174);
+  background-color: rgb(169, 168, 160);
   padding: 0 30px;
   display: flex;
   align-items: center;
@@ -955,6 +1013,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.popupBG {
 .popupBG .shopCartWrapper .shopCartContainer {
   padding: 30px 10px;
   height: 50em;
+  width: 100%;
   overflow-y: scroll;
 }
 .popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar {
@@ -967,10 +1026,15 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.popupBG {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 .popupBG .shopCartWrapper .priceButtonContainer {
+  position: sticky;
+  right: 0;
   bottom: 0;
+  width: 100%;
   padding: 10px 10px;
   display: flex;
   flex-direction: column;
+  background-color: white;
+  box-shadow: 0px -10px 10px 2px rgba(0, 0, 0, 0.1);
   gap: 20px;
 }
 .popupBG .shopCartWrapper .priceButtonContainer .priceInfo {
@@ -985,7 +1049,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.popupBG {
   border-radius: 5px;
   color: white;
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
-}`, "",{"version":3,"sources":["webpack://./src/components/ShopCartPopUp/ShopCart.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,MAAM;EACN,OAAO;EACP,8BAA8B;EAC9B,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,aAAa;AACf;AACA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,cAAc;EACd,YAAY;EACZ,MAAM;EACN,QAAQ;EACR,iBAAiB;AACnB;AACA;EACE,gBAAgB;EAChB,QAAQ;EACR,WAAW;EACX,YAAY;EACZ,oCAAoC;EACpC,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,2BAA2B;EAC3B,+CAA+C;AACjD;AACA;EACE,kBAAkB;EAClB,YAAY;EACZ,kBAAkB;AACpB;AACA;EACE,UAAU;AACZ;AACA;EACE,oDAAoD;AACtD;AACA;EACE,oDAAoD;AACtD;AACA;EACE,SAAS;EACT,kBAAkB;EAClB,aAAa;EACb,sBAAsB;EACtB,SAAS;AACX;AACA;EACE,iBAAiB;EACjB,eAAe;AACjB;AACA;EACE,WAAW;EACX,YAAY;EACZ,WAAW;EACX,mCAAmC;EACnC,kBAAkB;EAClB,YAAY;EACZ,+CAA+C;AACjD","sourcesContent":[".popupBG {\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.5);\n  z-index: 100;\n  width: 100%;\n  height: 100%;\n  display: none;\n}\n.popupBG .shopCartWrapper {\n  position: absolute;\n  width: fit-content;\n  min-width: 60%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background: white;\n}\n.popupBG .shopCartWrapper .shopCartTitle {\n  position: sticky;\n  right: 0;\n  width: 100%;\n  height: 80px;\n  background-color: rgb(201, 198, 174);\n  padding: 0 30px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);\n}\n.popupBG .shopCartWrapper .shopCartContainer {\n  padding: 30px 10px;\n  height: 50em;\n  overflow-y: scroll;\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar {\n  width: 8px;\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar-thumb {\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);\n}\n.popupBG .shopCartWrapper .priceButtonContainer {\n  bottom: 0;\n  padding: 10px 10px;\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .priceInfo {\n  font-weight: bold;\n  font-size: 20px;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton {\n  width: 100%;\n  height: 50px;\n  border: 0px;\n  background-color: rgb(91, 134, 203);\n  border-radius: 5px;\n  color: white;\n  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/ShopCartPopUp/ShopCart.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,MAAM;EACN,OAAO;EACP,8BAA8B;EAC9B,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,cAAc;AAChB;AACA;EACE,kBAAkB;EAClB,cAAc;EACd,YAAY;EACZ,MAAM;EACN,QAAQ;EACR,iBAAiB;EACjB,6CAA6C;AAC/C;AACA;EACE,gBAAgB;EAChB,QAAQ;EACR,WAAW;EACX,YAAY;EACZ,oCAAoC;EACpC,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,2BAA2B;EAC3B,+CAA+C;AACjD;AACA;EACE,kBAAkB;EAClB,YAAY;EACZ,WAAW;EACX,kBAAkB;AACpB;AACA;EACE,UAAU;AACZ;AACA;EACE,oDAAoD;AACtD;AACA;EACE,oDAAoD;AACtD;AACA;EACE,gBAAgB;EAChB,QAAQ;EACR,SAAS;EACT,WAAW;EACX,kBAAkB;EAClB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,iDAAiD;EACjD,SAAS;AACX;AACA;EACE,iBAAiB;EACjB,eAAe;AACjB;AACA;EACE,WAAW;EACX,YAAY;EACZ,WAAW;EACX,mCAAmC;EACnC,kBAAkB;EAClB,YAAY;EACZ,+CAA+C;AACjD","sourcesContent":[".popupBG {\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.5);\n  z-index: 100;\n  width: 100%;\n  height: 100%;\n  display: block;\n}\n.popupBG .shopCartWrapper {\n  position: absolute;\n  min-width: 60%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background: white;\n  box-shadow: -8px 5 px 25px rgba(0, 0, 0, 0.2);\n}\n.popupBG .shopCartWrapper .shopCartTitle {\n  position: sticky;\n  right: 0;\n  width: 100%;\n  height: 80px;\n  background-color: rgb(169, 168, 160);\n  padding: 0 30px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);\n}\n.popupBG .shopCartWrapper .shopCartContainer {\n  padding: 30px 10px;\n  height: 50em;\n  width: 100%;\n  overflow-y: scroll;\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar {\n  width: 8px;\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar-thumb {\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);\n}\n.popupBG .shopCartWrapper .priceButtonContainer {\n  position: sticky;\n  right: 0;\n  bottom: 0;\n  width: 100%;\n  padding: 10px 10px;\n  display: flex;\n  flex-direction: column;\n  background-color: white;\n  box-shadow: 0px -10px 10px 2px rgba(0, 0, 0, 0.1);\n  gap: 20px;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .priceInfo {\n  font-weight: bold;\n  font-size: 20px;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton {\n  width: 100%;\n  height: 50px;\n  border: 0px;\n  background-color: rgb(91, 134, 203);\n  border-radius: 5px;\n  color: white;\n  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -998,6 +1062,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.popupBG {
   \********************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1028,6 +1093,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.sliderWrapper {
   \********************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -1075,6 +1141,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.switchBlock {
   \*****************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /*
@@ -1169,6 +1236,7 @@ module.exports = function (cssWithMappingToString) {
   \************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (item) {
@@ -1194,6 +1262,7 @@ module.exports = function (item) {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /**
  * @license React
  * react-dom.development.js
@@ -31067,6 +31136,7 @@ if (
   \******************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 
 
 var m = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
@@ -31099,6 +31169,7 @@ if (false) {} else {
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 function checkDCE() {
@@ -31142,6 +31213,7 @@ if (false) {} else {
   \*****************************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
+"use strict";
 /* module decorator */ module = __webpack_require__.nmd(module);
 /**
  * @license React
@@ -33892,6 +33964,7 @@ if (
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -33907,6 +33980,7 @@ if (false) {} else {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 /**
  * @license React
  * scheduler.development.js
@@ -34551,6 +34625,7 @@ if (
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -34566,6 +34641,7 @@ if (false) {} else {
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -34620,6 +34696,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var stylesInDOM = [];
@@ -34713,6 +34790,7 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var memo = {};
@@ -34756,6 +34834,7 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -34775,6 +34854,7 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -34794,6 +34874,7 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -34864,6 +34945,7 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -34967,8 +35049,9 @@ module.exports = styleTagTransform;
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/

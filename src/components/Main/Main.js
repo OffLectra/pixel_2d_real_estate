@@ -16,10 +16,7 @@ export function MainComponent() {
               </div>
             </div>
             <div className="cardsBlock">
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
+
               <CardComponent />
               <CardComponent />
               <CardComponent />
