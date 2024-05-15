@@ -25,6 +25,12 @@ export function MainComponent() {
               <CardComponent />
               <CardComponent />
               <CardComponent />
+              <CardComponent />
+              <CardComponent />
+              <CardComponent />
+              <CardComponent />
+
+
             
             </div>
           </div>

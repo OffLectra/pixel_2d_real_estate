@@ -9,9 +9,15 @@ export function ShopcartComponent() {
             <div className="shopCartWrapper">
                 <div className="shopCartTitle">
                     <h2>Корзина</h2>
-                    <button className="shopCartCloseButton">Закрыть</button>
+                    <button className="shopCartCloseButton">x</button>
                 </div>
                 <div className="shopCartContainer">
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
                     <ShopcartItemComponent />
                     <ShopcartItemComponent />
                     <ShopcartItemComponent />

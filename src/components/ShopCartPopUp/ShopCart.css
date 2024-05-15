@@ -11,7 +11,7 @@
 .popupBG .shopCartWrapper {
   position: absolute;
   min-width: 60%;
-  height: 100%;
+  height: calc(100% - 180px);
   top: 0;
   right: 0;
   background: white;
@@ -36,8 +36,9 @@
 }
 .popupBG .shopCartWrapper .shopCartContainer {
   padding: 30px 10px;
-  height: 50em;
+  height: 100%;
   width: 100%;
+  background: white;
   overflow-y: scroll;
 }
 .popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar {
@@ -54,6 +55,7 @@
   right: 0;
   bottom: 0;
   width: 100%;
+  height: 100px;
   padding: 10px 10px;
   display: flex;
   flex-direction: column;
