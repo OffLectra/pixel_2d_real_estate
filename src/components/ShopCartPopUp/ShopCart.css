@@ -39,7 +39,7 @@
   height: 50em;
   width: 100%;
   background: white;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar {
   width: 8px;

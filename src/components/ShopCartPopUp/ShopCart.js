@@ -13,19 +13,7 @@ export function ShopcartComponent() {
                 </div>
                 <div className="shopCartContainer">
                     <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
-                    <ShopcartItemComponent />
+
                     <ShopcartItemComponent />
                     <ShopcartItemComponent />
 
