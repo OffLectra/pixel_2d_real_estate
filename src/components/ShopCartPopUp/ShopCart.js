@@ -22,6 +22,12 @@ export function ShopcartComponent() {
                     <ShopcartItemComponent />
                     <ShopcartItemComponent />
                     <ShopcartItemComponent />
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
+                    <ShopcartItemComponent />
 
   
 
