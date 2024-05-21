@@ -28,7 +28,7 @@ function App() {
   // эта конструкция для JS
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "App"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_MainPage_MainPage__WEBPACK_IMPORTED_MODULE_1__.PageWrapperComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_ShopCartPopUp_ShopCart__WEBPACK_IMPORTED_MODULE_2__.ShopcartComponent, null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_MainPage_MainPage__WEBPACK_IMPORTED_MODULE_1__.PageWrapperComponent, null));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
@@ -52,7 +52,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function CardComponent() {
+function CardComponent(data) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "cardContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -61,15 +61,11 @@ function CardComponent() {
     className: "infoBlock"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "infoBlockTitle"
-  }, "1-\u043A, 300px"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, data.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "infoBlockPhoto"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "assets/img/room_1.png",
-    alt: "",
-    width: 150
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, data.image), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "infoBlockPrice"
-  }, "100 \u0441\u043A\u0432")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, data.prices)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "addItemBlock"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Switch_Switch__WEBPACK_IMPORTED_MODULE_2__.SwitchComponent, null)));
 }
@@ -209,10 +205,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Card_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Card/Card */ "./src/components/Card/Card.js");
 /* harmony import */ var _Slider_Slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Slider/Slider */ "./src/components/Slider/Slider.js");
+/* harmony import */ var _data_data_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../data/data.js */ "./src/data/data.js");
+/* harmony import */ var _data_data_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_data_data_js__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
 function MainComponent() {
+  const itemCardData = _data_data_js__WEBPACK_IMPORTED_MODULE_3__.data.map;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "generalContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slider_Slider__WEBPACK_IMPORTED_MODULE_2__.SliderComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -230,7 +230,9 @@ function MainComponent() {
     placeholder: "\u041F\u043E\u0438\u0441\u043A..."
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "cardsBlock"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Card_Card__WEBPACK_IMPORTED_MODULE_1__.CardComponent, null)))));
+  }, _data_data_js__WEBPACK_IMPORTED_MODULE_3__.data.map(dataItem => {
+    return {};
+  })))));
 }
 
 /***/ }),
@@ -253,6 +255,8 @@ function ShopcartItemComponent() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "cartItemContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "cartItemContainerLeft"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartItemImgContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "./assets/img/room_2.png",
@@ -262,9 +266,9 @@ function ShopcartItemComponent() {
     className: "shopCartItemInfoContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartItemTitle"
-  }, "\u041A\u043E\u043C\u043D\u0430\u0442\u0430 vgvevevservvgvgerfgvefr"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "\u041A\u043E\u043C\u043D\u0430\u0442\u0430"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartItemPrice"
-  }, "100 \u0441\u043A\u0432")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "100 \u0441\u043A\u0432"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartItemCrossContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "shopCartItemCrossButton"
@@ -299,13 +303,15 @@ function ShopcartComponent() {
     className: "shopCartWrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartTitle"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "\u041A\u043E\u0440\u0437\u0438\u043D\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "\u041A\u043E\u0440\u0437\u0438\u043D\u0430"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "shopCartCloseButton"
+  }, "x")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "shopCartContainer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ShopCartItem_ShopCartItem__WEBPACK_IMPORTED_MODULE_1__.ShopcartItemComponent, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "priceButtonContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "priceInfo"
-  }, "\u0418\u0442\u043E\u0433\u043E: 1000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  }, "\u0418\u0442\u043E\u0433\u043E: 1000 \u0441\u043A\u0432"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "shopCartPriceButton"
   }, "\u041E\u0444\u043E\u0440\u043C\u0438\u0442\u044C \u0437\u0430\u043A\u0430\u0437"))));
 }
@@ -485,7 +491,7 @@ body .wrapper {
 
 .App {
   position: relative;
-}`, "",{"version":3,"sources":["webpack://./src/index.sass"],"names":[],"mappings":"AAeA;EACE,sBAAA;AAHF;;AAKA;EACE,SAAA;EACA,UAAA;AAFF;;AAIA;EACE,+EAAA;AADF;;AAIA;EACE,YAAA;EAGA,2BAAA;EACA,4BAAA;EACA,kBAAA;AAHF;AAME;EACI,UAAA;AAJN;AAME;EACE,oDAAA;AAJJ;AAOE;EACE,oDAAA;AALJ;AAOE;EACE,oCAAA;EACA,WAAA;EAEA,cAAA;EACA,wBAAA;AANJ;;AAQA;EACE,UAAA;EACA,iBAAA;EACA,cAAA;EACA,oCAAA;AALF;;AAOA;EACE,kBAAA;AAJF","sourcesContent":["@import ./assets/styles/normalize.css\n@import ./components/MainPage/MainPage.css\n@import ./components/Header/Header.css\n@import ./components/Main/Main.css\n@import ./components/Slider/Slider.css\n@import ./components/Card/Card.css\n@import ./components/Footer/Footer.css\n@import ./components/HeartIcon/HeartIcon.css\n@import ./components/Switch/Switch.css\n@import ./components/ShopCartPopUp/ShopCart.css\n@import ./components/ShopCartItem/ShopCartItem.css\n\n\n\n\n*, *::before, *::after\n  box-sizing: border-box\n\nbody, h1, h2, h3, h4, h5, h6, p\n  margin: 0\n  padding: 0\n  \ncode\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace\n\n\nbody\n  height: auto\n  // width: 100vw\n  // cursor: url('./assets/img/kursor_3.png'), auto\n  background: rgb(39,34,40)\n  background-repeat: no-repeat\n  position: relative\n  // overflow: hidden\n\n  &::-webkit-scrollbar\n      width: 8px\n\n  &::-webkit-scrollbar-track\n    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)\n\n\n  &::-webkit-scrollbar-thumb\n    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5)\n\n  .wrapper\n    background-color: rgb(231, 220, 200)\n    width: 100%\n    // border-radius: 8px\n    margin: 0 auto\n    padding: 8em 10px 0 10px\n\n.generalContainer\n  width: 80%\n  max-width: 1200px\n  margin: 0 auto\n  background-color: rgb(231, 220, 200)\n   \n.App\n  position: relative\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/index.sass"],"names":[],"mappings":"AAeA;EACE,sBAAA;AAHF;;AAKA;EACE,SAAA;EACA,UAAA;AAFF;;AAIA;EACE,+EAAA;AADF;;AAIA;EACE,YAAA;EAGA,2BAAA;EACA,4BAAA;EACA,kBAAA;AAHF;AAME;EACI,UAAA;AAJN;AAME;EACE,oDAAA;AAJJ;AAOE;EACE,oDAAA;AALJ;AAOE;EACE,oCAAA;EACA,WAAA;EAEA,cAAA;EACA,wBAAA;AANJ;;AAQA;EACE,UAAA;EACA,iBAAA;EACA,cAAA;EACA,oCAAA;AALF;;AAOA;EACE,kBAAA;AAJF","sourcesContent":["@import ./assets/styles/normalize.css\n@import ./components/MainPage/MainPage.css\n@import ./components/Header/Header.css\n@import ./components/Main/Main.css\n@import ./components/Slider/Slider.css\n@import ./components/Card/Card.css\n@import ./components/Footer/Footer.css\n@import ./components/HeartIcon/HeartIcon.css\n@import ./components/Switch/Switch.css\n@import ./components/ShopCartPopUp/ShopCart.css\n@import ./components/ShopCartItem/ShopCartItem.css\n\n\n\n\n*, *::before, *::after\n  box-sizing: border-box\n\nbody, h1, h2, h3, h4, h5, h6, p\n  margin: 0\n  padding: 0\n  \ncode\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace\n\n\nbody\n  height: auto\n  // width: 100vw\n  // cursor: url('./assets/img/kursor_3.png'), auto\n  background: rgb(39,34,40)\n  background-repeat: no-repeat\n  position: relative\n  // overflow: hidden\n\n  &::-webkit-scrollbar\n      width: 8px\n\n  &::-webkit-scrollbar-track\n    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)\n\n\n  &::-webkit-scrollbar-thumb\n    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5)\n\n  .wrapper\n    background-color: rgb(231, 220, 200)\n    width: 100%\n    // border-radius: 8px\n    margin: 0 auto\n    padding: 8em 10px 0 10px\n\n.generalContainer\n  width: 80%\n  max-width: 1200px\n  margin: 0 auto\n  background-color: rgb(231, 220, 200)\n   \n.App\n  position: relative\n  // height: 100%\n  // min-height: 1000px\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -905,43 +911,56 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.cartItemContainer {
-  height: 100px;
-  padding: 0px 20px 0px 10px;
+  padding: 5px;
   display: flex;
+  gap: 5px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgb(240, 240, 240);
+  border: 1px solid rgb(220, 220, 220);
   border-radius: 5px;
   margin: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  background: white;
 }
 .cartItemContainer:hover {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
   transform: translateY(-2px);
 }
-.cartItemContainer .shopCartItemImgContainer {
-  width: 80px;
+.cartItemContainer .cartItemContainerLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.cartItemContainer .cartItemContainerLeft .shopCartItemImgContainer {
+  width: 100%;
+  min-width: 80px;
+  max-width: 100px;
+  height: 100%;
+  min-height: 80px;
+  max-height: 90px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-size: cover;
 }
-.cartItemContainer .shopCartItemImgContainer .shopCartItemImg {
+.cartItemContainer .cartItemContainerLeft .shopCartItemImgContainer .shopCartItemImg {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-.cartItemContainer .shopCartItemInfoContainer {
+.cartItemContainer .cartItemContainerLeft .shopCartItemInfoContainer {
   width: 100%;
-  max-width: 130px;
+  max-width: 300px;
   white-space: normal;
 }
-.cartItemContainer .shopCartItemInfoContainer .shopCartItemTitle {
-  height: 60px;
+.cartItemContainer .cartItemContainerLeft .shopCartItemInfoContainer .shopCartItemTitle {
+  white-space: normal;
 }
-.cartItemContainer .shopCartItemInfoContainer .shopCartItemPrice {
+.cartItemContainer .cartItemContainerLeft .shopCartItemInfoContainer .shopCartItemPrice {
   font-weight: bolder;
   font-style: oblique;
 }
@@ -952,7 +971,12 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.cartItemContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-}`, "",{"version":3,"sources":["webpack://./src/components/ShopCartItem/ShopCartItem.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,0BAA0B;EAC1B,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,mBAAmB;EACnB,oCAAoC;EACpC,kBAAkB;EAClB,WAAW;EACX,8CAA8C;EAC9C,mEAAmE;AACrE;AACA;EACE,6CAA6C;EAC7C,2BAA2B;AAC7B;AACA;EACE,WAAW;EACX,aAAa;EACb,mBAAmB;EACnB,mBAAmB;AACrB;AACA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,WAAW;AACb;AACA;EACE,WAAW;EACX,gBAAgB;EAChB,mBAAmB;AACrB;AACA;EACE,YAAY;AACd;AACA;EACE,mBAAmB;EACnB,mBAAmB;AACrB;AACA;EACE,eAAe;EACf,WAAW;EACX,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB","sourcesContent":[".cartItemContainer {\n  height: 100px;\n  padding: 0px 20px 0px 10px;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  border: 1px solid rgb(240, 240, 240);\n  border-radius: 5px;\n  margin: 8px;\n  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);\n  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;\n}\n.cartItemContainer:hover {\n  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);\n  transform: translateY(-2px);\n}\n.cartItemContainer .shopCartItemImgContainer {\n  width: 80px;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n.cartItemContainer .shopCartItemImgContainer .shopCartItemImg {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n}\n.cartItemContainer .shopCartItemInfoContainer {\n  width: 100%;\n  max-width: 130px;\n  white-space: normal;\n}\n.cartItemContainer .shopCartItemInfoContainer .shopCartItemTitle {\n  height: 60px;\n}\n.cartItemContainer .shopCartItemInfoContainer .shopCartItemPrice {\n  font-weight: bolder;\n  font-style: oblique;\n}\n.cartItemContainer .shopCartItemCrossContainer {\n  cursor: pointer;\n  width: 30px;\n  height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}"],"sourceRoot":""}]);
+}
+.cartItemContainer .shopCartItemCrossContainer .shopCartItemCrossButton {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.4);
+}`, "",{"version":3,"sources":["webpack://./src/components/ShopCartItem/ShopCartItem.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,aAAa;EACb,QAAQ;EACR,mBAAmB;EACnB,8BAA8B;EAC9B,mBAAmB;EACnB,oCAAoC;EACpC,kBAAkB;EAClB,WAAW;EACX,8CAA8C;EAC9C,mEAAmE;EACnE,iBAAiB;AACnB;AACA;EACE,6CAA6C;EAC7C,2BAA2B;AAC7B;AACA;EACE,aAAa;EACb,mBAAmB;EACnB,2BAA2B;EAC3B,SAAS;AACX;AACA;EACE,WAAW;EACX,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,gBAAgB;EAChB,gBAAgB;EAChB,aAAa;EACb,mBAAmB;EACnB,mBAAmB;EACnB,sBAAsB;AACxB;AACA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,WAAW;AACb;AACA;EACE,WAAW;EACX,gBAAgB;EAChB,mBAAmB;AACrB;AACA;EACE,mBAAmB;AACrB;AACA;EACE,mBAAmB;EACnB,mBAAmB;AACrB;AACA;EACE,eAAe;EACf,WAAW;EACX,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB;AACA;EACE,oCAAoC;EACpC,kBAAkB;EAClB,yBAAyB;AAC3B","sourcesContent":[".cartItemContainer {\n  padding: 5px;\n  display: flex;\n  gap: 5px;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  border: 1px solid rgb(220, 220, 220);\n  border-radius: 5px;\n  margin: 8px;\n  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);\n  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;\n  background: white;\n}\n.cartItemContainer:hover {\n  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);\n  transform: translateY(-2px);\n}\n.cartItemContainer .cartItemContainerLeft {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  gap: 10px;\n}\n.cartItemContainer .cartItemContainerLeft .shopCartItemImgContainer {\n  width: 100%;\n  min-width: 80px;\n  max-width: 100px;\n  height: 100%;\n  min-height: 80px;\n  max-height: 90px;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  background-size: cover;\n}\n.cartItemContainer .cartItemContainerLeft .shopCartItemImgContainer .shopCartItemImg {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n}\n.cartItemContainer .cartItemContainerLeft .shopCartItemInfoContainer {\n  width: 100%;\n  max-width: 300px;\n  white-space: normal;\n}\n.cartItemContainer .cartItemContainerLeft .shopCartItemInfoContainer .shopCartItemTitle {\n  white-space: normal;\n}\n.cartItemContainer .cartItemContainerLeft .shopCartItemInfoContainer .shopCartItemPrice {\n  font-weight: bolder;\n  font-style: oblique;\n}\n.cartItemContainer .shopCartItemCrossContainer {\n  cursor: pointer;\n  width: 30px;\n  height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.cartItemContainer .shopCartItemCrossContainer .shopCartItemCrossButton {\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  border-radius: 3px;\n  color: rgba(0, 0, 0, 0.4);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1007,14 +1031,20 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.popupBG {
   padding: 0 30px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.popupBG .shopCartWrapper .shopCartTitle .shopCartCloseButton {
+  border: 0px;
+  background-color: rgb(169, 168, 160);
+  font-size: 20px;
 }
 .popupBG .shopCartWrapper .shopCartContainer {
   padding: 30px 10px;
   height: 50em;
   width: 100%;
-  overflow-y: scroll;
+  background: white;
+  overflow-y: auto;
 }
 .popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar {
   width: 8px;
@@ -1030,6 +1060,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.popupBG {
   right: 0;
   bottom: 0;
   width: 100%;
+  height: 100px;
   padding: 10px 10px;
   display: flex;
   flex-direction: column;
@@ -1049,7 +1080,27 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.popupBG {
   border-radius: 5px;
   color: white;
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
-}`, "",{"version":3,"sources":["webpack://./src/components/ShopCartPopUp/ShopCart.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,MAAM;EACN,OAAO;EACP,8BAA8B;EAC9B,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,cAAc;AAChB;AACA;EACE,kBAAkB;EAClB,cAAc;EACd,YAAY;EACZ,MAAM;EACN,QAAQ;EACR,iBAAiB;EACjB,6CAA6C;AAC/C;AACA;EACE,gBAAgB;EAChB,QAAQ;EACR,WAAW;EACX,YAAY;EACZ,oCAAoC;EACpC,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,2BAA2B;EAC3B,+CAA+C;AACjD;AACA;EACE,kBAAkB;EAClB,YAAY;EACZ,WAAW;EACX,kBAAkB;AACpB;AACA;EACE,UAAU;AACZ;AACA;EACE,oDAAoD;AACtD;AACA;EACE,oDAAoD;AACtD;AACA;EACE,gBAAgB;EAChB,QAAQ;EACR,SAAS;EACT,WAAW;EACX,kBAAkB;EAClB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,iDAAiD;EACjD,SAAS;AACX;AACA;EACE,iBAAiB;EACjB,eAAe;AACjB;AACA;EACE,WAAW;EACX,YAAY;EACZ,WAAW;EACX,mCAAmC;EACnC,kBAAkB;EAClB,YAAY;EACZ,+CAA+C;AACjD","sourcesContent":[".popupBG {\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.5);\n  z-index: 100;\n  width: 100%;\n  height: 100%;\n  display: block;\n}\n.popupBG .shopCartWrapper {\n  position: absolute;\n  min-width: 60%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background: white;\n  box-shadow: -8px 5 px 25px rgba(0, 0, 0, 0.2);\n}\n.popupBG .shopCartWrapper .shopCartTitle {\n  position: sticky;\n  right: 0;\n  width: 100%;\n  height: 80px;\n  background-color: rgb(169, 168, 160);\n  padding: 0 30px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);\n}\n.popupBG .shopCartWrapper .shopCartContainer {\n  padding: 30px 10px;\n  height: 50em;\n  width: 100%;\n  overflow-y: scroll;\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar {\n  width: 8px;\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar-thumb {\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);\n}\n.popupBG .shopCartWrapper .priceButtonContainer {\n  position: sticky;\n  right: 0;\n  bottom: 0;\n  width: 100%;\n  padding: 10px 10px;\n  display: flex;\n  flex-direction: column;\n  background-color: white;\n  box-shadow: 0px -10px 10px 2px rgba(0, 0, 0, 0.1);\n  gap: 20px;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .priceInfo {\n  font-weight: bold;\n  font-size: 20px;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton {\n  width: 100%;\n  height: 50px;\n  border: 0px;\n  background-color: rgb(91, 134, 203);\n  border-radius: 5px;\n  color: white;\n  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);\n}"],"sourceRoot":""}]);
+  position: relative;
+}
+.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(117, 165, 243);
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  opacity: 0.3;
+}
+.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton:hover {
+  transform: scale(0.9, 1);
+  transition: all 0.5s ease;
+}
+.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton:hover::before {
+  width: 100%;
+}`, "",{"version":3,"sources":["webpack://./src/components/ShopCartPopUp/ShopCart.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,MAAM;EACN,OAAO;EACP,8BAA8B;EAC9B,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,cAAc;AAChB;AACA;EACE,kBAAkB;EAClB,cAAc;EACd,YAAY;EACZ,MAAM;EACN,QAAQ;EACR,iBAAiB;EACjB,6CAA6C;AAC/C;AACA;EACE,gBAAgB;EAChB,QAAQ;EACR,WAAW;EACX,YAAY;EACZ,oCAAoC;EACpC,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,+CAA+C;AACjD;AACA;EACE,WAAW;EACX,oCAAoC;EACpC,eAAe;AACjB;AACA;EACE,kBAAkB;EAClB,YAAY;EACZ,WAAW;EACX,iBAAiB;EACjB,gBAAgB;AAClB;AACA;EACE,UAAU;AACZ;AACA;EACE,oDAAoD;AACtD;AACA;EACE,oDAAoD;AACtD;AACA;EACE,gBAAgB;EAChB,QAAQ;EACR,SAAS;EACT,WAAW;EACX,aAAa;EACb,kBAAkB;EAClB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,iDAAiD;EACjD,SAAS;AACX;AACA;EACE,iBAAiB;EACjB,eAAe;AACjB;AACA;EACE,WAAW;EACX,YAAY;EACZ,WAAW;EACX,mCAAmC;EACnC,kBAAkB;EAClB,YAAY;EACZ,+CAA+C;EAC/C,kBAAkB;AACpB;AACA;EACE,WAAW;EACX,kBAAkB;EAClB,MAAM;EACN,OAAO;EACP,QAAQ;EACR,YAAY;EACZ,oCAAoC;EACpC,kBAAkB;EAClB,yBAAyB;EACzB,YAAY;AACd;AACA;EACE,wBAAwB;EACxB,yBAAyB;AAC3B;AACA;EACE,WAAW;AACb","sourcesContent":[".popupBG {\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.5);\n  z-index: 100;\n  width: 100%;\n  height: 100%;\n  display: block;\n}\n.popupBG .shopCartWrapper {\n  position: absolute;\n  min-width: 60%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background: white;\n  box-shadow: -8px 5 px 25px rgba(0, 0, 0, 0.2);\n}\n.popupBG .shopCartWrapper .shopCartTitle {\n  position: sticky;\n  right: 0;\n  width: 100%;\n  height: 80px;\n  background-color: rgb(169, 168, 160);\n  padding: 0 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);\n}\n.popupBG .shopCartWrapper .shopCartTitle .shopCartCloseButton {\n  border: 0px;\n  background-color: rgb(169, 168, 160);\n  font-size: 20px;\n}\n.popupBG .shopCartWrapper .shopCartContainer {\n  padding: 30px 10px;\n  height: 50em;\n  width: 100%;\n  background: white;\n  overflow-y: auto;\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar {\n  width: 8px;\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);\n}\n.popupBG .shopCartWrapper .shopCartContainer::-webkit-scrollbar-thumb {\n  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);\n}\n.popupBG .shopCartWrapper .priceButtonContainer {\n  position: sticky;\n  right: 0;\n  bottom: 0;\n  width: 100%;\n  height: 100px;\n  padding: 10px 10px;\n  display: flex;\n  flex-direction: column;\n  background-color: white;\n  box-shadow: 0px -10px 10px 2px rgba(0, 0, 0, 0.1);\n  gap: 20px;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .priceInfo {\n  font-weight: bold;\n  font-size: 20px;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton {\n  width: 100%;\n  height: 50px;\n  border: 0px;\n  background-color: rgb(91, 134, 203);\n  border-radius: 5px;\n  color: white;\n  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);\n  position: relative;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 0;\n  height: 100%;\n  background-color: rgb(117, 165, 243);\n  border-radius: 5px;\n  transition: all 0.5s ease;\n  opacity: 0.3;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton:hover {\n  transform: scale(0.9, 1);\n  transition: all 0.5s ease;\n}\n.popupBG .shopCartWrapper .priceButtonContainer .shopCartPriceButton:hover::before {\n  width: 100%;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
