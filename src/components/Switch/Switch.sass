@@ -8,6 +8,7 @@
     margin: 5px
     border-radius: 8px
     overflow: hidden
+    user-select: none
     button
         border: 0px
         width: 100%
@@ -17,5 +18,17 @@
         align-items: center
 
     
-    switchMiddle
+    .switchMiddle
         height: auto
+    .switchPlus
+        background-color: rgb(226, 226, 226)
+        &:hover
+            background-color: rgb(175, 175, 175)
+        &:active
+            background-color: rgba(0, 148, 27, 0.634)
+    .switchMinus
+        background-color: rgb(226, 226, 226)
+        &:hover
+            background-color: rgb(175, 175, 175)
+        &:active
+            background-color: rgba(210, 0, 0, 0.634)

@@ -10,7 +10,7 @@ function App() {              // эта конструкция для JS
   return (
     <div className="App">
       <PageWrapperComponent />
-      <ShopcartComponent />
+      {/* <ShopcartComponent /> */}
 
     </div>  
   );

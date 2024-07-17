@@ -1,9 +1,13 @@
 import React from 'react';
 import { HeartIconComponent } from "../HeartIcon/HeartIcon";
 import { SwitchComponent } from "../Switch/Switch";
+// import {data} from "../../data/data.js"
 
 
-export function CardComponent() {
+export function CardComponent(props) {
+
+    const addToCart = props.onClickAddToCart;
+    const addToFavorite = props.onClickFavorite;
     return (
         <div className="cardContainer">
             <div className="heartBlock">
@@ -12,18 +16,20 @@ export function CardComponent() {
             </div>
             <div className="infoBlock">
                 <div className="infoBlockTitle">
-                    1-к, 300px
+                    {props.name}
                 </div>
                 <div className="infoBlockPhoto">
-                    <img src="assets/img/room_1.png" alt="" width={150}/>
+                    <img src={props.image} alt="" width={150}/>
                 </div>
                 <div className="infoBlockPrice">
-                    100 скв
+                    <p className="infoBlockPriceP">ЦEНА:</p>
+                    {props.price} скв
                 </div>
             </div>
             <div className="addItemBlock">
                 {/* <img src="./halka.png" alt="" /> */}
-                <SwitchComponent />
+                <SwitchComponent click={this.props.addToFavorite}/>
+
             </div>
 
         </div>

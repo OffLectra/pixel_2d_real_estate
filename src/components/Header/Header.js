@@ -8,7 +8,7 @@ export function HeaderComponent() {
         <div className="generalContainer">
           <div className="headerLeft">
             <a href="./">
-              <img width={50} alt="" src="./main_link.png" />
+              <img width={50} alt="" src="assets/img/main_link.png" />
             </a>
             <div className="headerInfo">
               <div>
@@ -20,14 +20,14 @@ export function HeaderComponent() {
           <div className="headerRight">
             <ul className="headerRightList">
               <li>
-                <img width={40} alt=""  src="./basket_2.png" />
+                <img width={40} alt=""  src="assets/img/cart.png" />
                 <span>Сумма</span>
               </li>
               <li>
-                <HeartIconComponent />
+                <div className="heartActive"></div>
               </li>
               <li>
-                <img width={40} alt=""  src="./user_1.png" />
+                <img width={40} alt=""  src="assets/img/user_1.png" />
               </li>
             </ul>
           </div>

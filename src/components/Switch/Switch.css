@@ -8,6 +8,7 @@
   margin: 5px;
   border-radius: 8px;
   overflow: hidden;
+  user-select: none;
 }
 .switchBlock button {
   border: 0px;
@@ -17,6 +18,24 @@
   justify-content: center;
   align-items: center;
 }
-.switchBlock switchMiddle {
+.switchBlock .switchMiddle {
   height: auto;
+}
+.switchBlock .switchPlus {
+  background-color: rgb(226, 226, 226);
+}
+.switchBlock .switchPlus:hover {
+  background-color: rgb(175, 175, 175);
+}
+.switchBlock .switchPlus:active {
+  background-color: rgba(0, 148, 27, 0.634);
+}
+.switchBlock .switchMinus {
+  background-color: rgb(226, 226, 226);
+}
+.switchBlock .switchMinus:hover {
+  background-color: rgb(175, 175, 175);
+}
+.switchBlock .switchMinus:active {
+  background-color: rgba(210, 0, 0, 0.634);
 }

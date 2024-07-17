@@ -1,34 +1,54 @@
 .cartItemContainer {
-  height: 100px;
-  padding: 0px 20px 0px 10px;
+  padding: 5px;
   display: flex;
+  gap: 5px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgb(240, 240, 240);
+  border: 1px solid rgb(220, 220, 220);
   border-radius: 5px;
-  margin: 10px;
+  margin: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  background: white;
 }
 .cartItemContainer:hover {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
   transform: translateY(-2px);
 }
-.cartItemContainer .shopCartItemImgContainer {
-  width: 90px;
-  height: 90px;
+.cartItemContainer .cartItemContainerLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.cartItemContainer .cartItemContainerLeft .shopCartItemImgContainer {
+  width: 100%;
+  min-width: 80px;
+  max-width: 100px;
+  height: 100%;
+  min-height: 80px;
+  max-height: 90px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-size: cover;
 }
-.cartItemContainer .shopCartItemImgContainer .shopCartItemImg {
+.cartItemContainer .cartItemContainerLeft .shopCartItemImgContainer .shopCartItemImg {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-.cartItemContainer .shopCartItemInfoContainer .shopCartItemPrice {
+.cartItemContainer .cartItemContainerLeft .shopCartItemInfoContainer {
+  width: 100%;
+  max-width: 300px;
+  white-space: normal;
+}
+.cartItemContainer .cartItemContainerLeft .shopCartItemInfoContainer .shopCartItemTitle {
+  white-space: normal;
+}
+.cartItemContainer .cartItemContainerLeft .shopCartItemInfoContainer .shopCartItemPrice {
   font-weight: bolder;
   font-style: oblique;
 }
@@ -39,4 +59,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.cartItemContainer .shopCartItemCrossContainer .shopCartItemCrossButton {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.4);
 }

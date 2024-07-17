@@ -1,8 +1,12 @@
 import React from 'react';
 import { CardComponent } from "../Card/Card";
 import { SliderComponent } from "../Slider/Slider";
+import {data} from "../../data/data.js"
 
 export function MainComponent() {
+  // const itemCardData = data.map
+
+
   return (
       <main>
         <div className="generalContainer">
@@ -16,19 +20,20 @@ export function MainComponent() {
               </div>
             </div>
             <div className="cardsBlock">
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-              <CardComponent />
-            
+              {data.map((valData) => {
+                  return (
+                    <>
+                      <CardComponent
+                        name={valData.name}
+                        price={valData.price}
+                        image={valData.image}
+                        onClickAddToCart={() => console.log('В корзине')}
+                        onClickFavorite={() => console.log("Лайк")}
+                        />
+                    </>
+                  )
+                })
+              }
             </div>
           </div>
         </div>

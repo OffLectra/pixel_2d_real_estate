@@ -36,6 +36,15 @@
   color: rgb(224, 65, 123);
   font-weight: bold;
   font-size: larger;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2%;
+}
+.cardContainer .infoBlock .infoBlockPrice .infoBlockPriceP {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: small;
+  font-weight: 200;
 }
 .cardContainer .addItemBlock {
   display: flex;
