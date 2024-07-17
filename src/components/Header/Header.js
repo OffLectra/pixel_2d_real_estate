@@ -24,7 +24,7 @@ export function HeaderComponent() {
                 <span>Сумма</span>
               </li>
               <li>
-                <HeartIconComponent />
+                <div className="heartActive"></div>
               </li>
               <li>
                 <img width={40} alt=""  src="assets/img/user_1.png" />

@@ -5,6 +5,8 @@ import {data} from "../../data/data.js"
 
 export function MainComponent() {
   // const itemCardData = data.map
+
+
   return (
       <main>
         <div className="generalContainer">
@@ -18,15 +20,16 @@ export function MainComponent() {
               </div>
             </div>
             <div className="cardsBlock">
-              {
-                data.map(valData => {
-                  const valName = valData.name;
-                  const valPrice = valData.price;
-                  const valImage = valData.image;
+              {data.map((valData) => {
                   return (
                     <>
-                      <CardComponent name={valName} price={valPrice} image={valImage}/> 
-                      {/* {ничего не понятно, но очень интересно, почему при создании компонента мы указываем всего один пропс, а при вызове передаем аж 3!! пропса..} */}
+                      <CardComponent
+                        name={valData.name}
+                        price={valData.price}
+                        image={valData.image}
+                        onClickAddToCart={() => console.log('В корзине')}
+                        onClickFavorite={() => console.log("Лайк")}
+                        />
                     </>
                   )
                 })

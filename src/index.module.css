@@ -1,0 +1,56 @@
+@import "./assets/styles/normalize.css";
+@import "./components/MainPage/MainPage.css";
+@import "./components/Header/Header.css";
+@import "./components/Main/Main.css";
+@import "./components/Slider/Slider.css";
+@import "./components/Card/Card.css";
+@import "./components/Footer/Footer.css";
+@import "./components/HeartIcon/HeartIcon.css";
+@import "./components/Switch/Switch.css";
+@import "./components/ShopCartPopUp/ShopCart.css";
+@import "./components/ShopCartItem/ShopCartItem.css";
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+  height: auto;
+  background: rgb(39, 34, 40);
+  background-repeat: no-repeat;
+  position: relative;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+body .wrapper {
+  background-color: rgb(231, 220, 200);
+  width: 100%;
+  margin: 0 auto;
+  padding: 8em 10px 0 10px;
+}
+
+.generalContainer {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(231, 220, 200);
+}
+
+.App {
+  position: relative;
+}

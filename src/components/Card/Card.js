@@ -4,7 +4,10 @@ import { SwitchComponent } from "../Switch/Switch";
 // import {data} from "../../data/data.js"
 
 
-export function CardComponent(valData) {
+export function CardComponent(props) {
+
+    const addToCart = props.onClickAddToCart;
+    const addToFavorite = props.onClickFavorite;
     return (
         <div className="cardContainer">
             <div className="heartBlock">
@@ -13,21 +16,20 @@ export function CardComponent(valData) {
             </div>
             <div className="infoBlock">
                 <div className="infoBlockTitle">
-                    {/* 1-к, 300px */}
-                    {valData.name}
+                    {props.name}
                 </div>
                 <div className="infoBlockPhoto">
-                    <img src={valData.image} alt="" width={150}/>
-                    {/* {image} */}
+                    <img src={props.image} alt="" width={150}/>
                 </div>
                 <div className="infoBlockPrice">
-                    {/* 100 скв */}
-                    {valData.price} скв
+                    <p className="infoBlockPriceP">ЦEНА:</p>
+                    {props.price} скв
                 </div>
             </div>
             <div className="addItemBlock">
                 {/* <img src="./halka.png" alt="" /> */}
-                <SwitchComponent />
+                <SwitchComponent click={this.props.addToFavorite}/>
+
             </div>
 
         </div>
